@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sigimd.controllers.PersonController">
+   <children>
+      <Label fx:id="nivel" layoutX="369.0" layoutY="123.0" prefHeight="17.0" prefWidth="115.0" text="Nivel" />
+      <Label fx:id="formacao" layoutX="369.0" layoutY="103.0" prefHeight="17.0" prefWidth="115.0" text="Formação:" />
+      <Label fx:id="disciplinas" layoutX="436.0" layoutY="214.0" prefHeight="17.0" prefWidth="156.0" text="Disciplinas" />
+      <Label fx:id="nome" layoutX="60.0" layoutY="85.0" prefHeight="17.0" prefWidth="156.0" text="Nome" />
+      <Label fx:id="cpf" layoutX="57.0" layoutY="105.0" prefHeight="17.0" prefWidth="156.0" text="CPF" />
+      <Label fx:id="dataNascimento" layoutX="92.0" layoutY="124.0" prefHeight="17.0" prefWidth="156.0" text="Data de nascimento" />
+      <Label fx:id="genero" layoutX="68.0" layoutY="163.0" prefHeight="17.0" prefWidth="156.0" text="Gênero" />
+      <Label fx:id="matricula" layoutX="369.0" layoutY="144.0" prefHeight="17.0" prefWidth="115.0" text="Matricula" />
+      <Label fx:id="departamento" layoutX="369.0" layoutY="82.0" prefHeight="17.0" prefWidth="206.0" text="Departamento" />
+      <Label fx:id="cargaHoraria" layoutX="369.0" layoutY="167.0" prefHeight="17.0" prefWidth="115.0" text="Carga horária" />
+      <Label fx:id="dataIngresso" layoutX="117.0" layoutY="144.0" prefHeight="17.0" prefWidth="156.0" text="Data de ingresso" />
+      <Label fx:id="rua" layoutX="76.0" layoutY="241.0" prefHeight="17.0" prefWidth="150.0" text="Rua" />
+      <Label fx:id="numero" layoutX="76.0" layoutY="292.0" prefHeight="17.0" prefWidth="150.0" text="Numero" />
+      <Label fx:id="cidade" layoutX="76.0" layoutY="258.0" prefHeight="17.0" prefWidth="69.0" text="Cidade" />
+      <Label fx:id="bairro" layoutX="76.0" layoutY="275.0" prefHeight="17.0" prefWidth="150.0" text="Bairro" />
+      <Label fx:id="cep" layoutX="76.0" layoutY="310.0" prefHeight="17.0" prefWidth="150.0" text="CEP" />
+      <Label layoutX="21.0" layoutY="56.0" text="Informações Pessoais">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="55.0" text="Educacional">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="213.0" text="Endereço">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="192.0" layoutY="361.0" mnemonicParsing="false" onAction="#voltarAoMenu" text="Voltar" />
+      <Button layoutX="344.0" layoutY="361.0" mnemonicParsing="false" onAction="#remover" text="Remover" />
+      <Label fx:id="salario" layoutX="369.0" layoutY="190.0" prefHeight="17.0" prefWidth="115.0" text="Salário" />
+      <Label fx:id="profissao" layoutX="21.0" layoutY="14.0" prefHeight="35.0" prefWidth="115.0" text="Professor">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="85.0" text="Nome:" />
+      <Label layoutX="21.0" layoutY="105.0" text="CPF:" />
+      <Label layoutX="21.0" layoutY="124.0" text="Nascimento:" />
+      <Label layoutX="22.0" layoutY="144.0" text="Data de ingresso:" />
+      <Label layoutX="22.0" layoutY="163.0" text="Gênero:" />
+      <Label layoutX="24.0" layoutY="241.0" text="Rua:" />
+      <Label layoutX="23.0" layoutY="258.0" text="Cidade:" />
+      <Label layoutX="23.0" layoutY="275.0" text="Bairro:" />
+      <Label layoutX="23.0" layoutY="292.0" text="Numero:" />
+      <Label layoutX="24.0" layoutY="310.0" text="CEP:" />
+      <Label fx:id="disciplinasesalubridade" layoutX="280.0" layoutY="214.0" prefHeight="17.0" prefWidth="156.0" text="Disciplinas:" />
+      <Label layoutX="284.0" layoutY="82.0" text="Departamento:" />
+      <Label layoutX="284.0" layoutY="103.0" text="Formação:" />
+      <Label layoutX="284.0" layoutY="123.0" text="Nível:" />
+      <Label layoutX="284.0" layoutY="144.0" text="Matricula:" />
+      <Label layoutX="283.0" layoutY="167.0" text="Carga horária:" />
+      <Label layoutX="284.0" layoutY="190.0" text="Salário:" />
+   </children>
+</AnchorPane>
